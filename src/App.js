@@ -22,7 +22,7 @@ class App extends Component {
 
   render() {
     return (
-      <HashRouter>
+      <HashRouter basename='/'>
           <React.Suspense fallback={loading}>
             <Switch>
               <Route exact path="/login" name="Login Page" render={props => <Login {...props}/>} />
