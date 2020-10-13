@@ -65,7 +65,7 @@ export default () => {
                 </li>                
 
                 <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#contact">Contact</a>
+                    <a className="nav-link page-scroll" href="/login">Login</a>
                 </li>
             </ul>
             <span className="nav-item social-icons">

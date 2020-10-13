@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, {useState, useEffect} from 'react'
+import { Redirect, Link } from 'react-router-dom'
 import {
   CButton,
   CCard,
@@ -17,6 +17,25 @@ import {
 import CIcon from '@coreui/icons-react'
 
 const Login = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+  const [redirect, setRedirect] = useState(false);
+  const [error, setError] = useState(false);
+
+  const handleLogin = () => {
+    if (username !== 'user' || password !== 'password') {
+      setError(true)
+    }
+
+    if (username === 'user' && password === 'password') {
+      setRedirect(true);
+    }
+  }
+
+  if (redirect) {
+    return <Redirect to='/dashboard' />
+  }
+
   return (
     <div className="c-app c-default-layout flex-row align-items-center">
       <CContainer>
@@ -34,7 +53,7 @@ const Login = () => {
                           <CIcon name="cil-user" />
                         </CInputGroupText>
                       </CInputGroupPrepend>
-                      <CInput type="text" placeholder="Username" autoComplete="username" />
+                      <CInput type="text" placeholder="Username" autoComplete="username" value={username} onChange={e => setUsername(e.target.value)} />
                     </CInputGroup>
                     <CInputGroup className="mb-4">
                       <CInputGroupPrepend>
@@ -42,11 +61,20 @@ const Login = () => {
                           <CIcon name="cil-lock-locked" />
                         </CInputGroupText>
                       </CInputGroupPrepend>
-                      <CInput type="password" placeholder="Password" autoComplete="current-password" />
+                      <CInput type="password" placeholder="Password" autoComplete="current-password" value={password} onChange={e => setPassword(e.target.value)} />
                     </CInputGroup>
+                    {
+                      error ? (
+                        <CRow className="mb-2">
+                          <CCol xs="12">
+                            <p>Invalid username or password</p>
+                          </CCol>
+                        </CRow>
+                      ) : null
+                    }                    
                     <CRow>
                       <CCol xs="6">
-                        <CButton color="primary" className="px-4">Login</CButton>
+                        <CButton color="primary" className="px-4" onClick={handleLogin}>Login</CButton>
                       </CCol>
                       <CCol xs="6" className="text-right">
                         <CButton color="link" className="px-0">Forgot password?</CButton>
