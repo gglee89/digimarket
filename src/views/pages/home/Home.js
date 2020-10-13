@@ -1,4 +1,5 @@
 import React from 'react';
+import { CLink } from '@coreui/react';
 
 import '../../../scss/home/styles.scss';
 import 'swiper/swiper.scss';
@@ -33,7 +34,7 @@ export default () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">          
           
-          <a className="navbar-brand logo-image" href="index.html"><img src={logo} alt="alternative" /></a>
+          <CLink className="navbar-brand logo-image" to="/"><img src={logo} alt="alternative" /></CLink>
                     
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-awesome fa fa-bars"></span>
@@ -52,20 +53,20 @@ export default () => {
                     <a className="nav-link page-scroll" href="#pricing">Pricing</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#request">Request</a>
+                    <CLink className="nav-link page-scroll" to="#request">Request</CLink>
                 </li>
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                    <CLink className="nav-link dropdown-toggle page-scroll" to="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">About</CLink>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="terms-conditions.html"><span className="item-text">Terms Conditions</span></a>
+                        <CLink className="dropdown-item" to="/terms-conditions"><span className="item-text">Terms Conditions</span></a>
                         <div className="dropdown-items-divide-hr"></div>
-                        <a className="dropdown-item" href="privacy-policy.html"><span className="item-text">Privacy Policy</span></a>
+                        <CLink className="dropdown-item" to="/privacy-policy"><span className="item-text">Privacy Policy</span></a>
                     </div>
                 </li>                
 
                 <li className="nav-item">
-                    <a className="nav-link page-scroll" href="/login">Login</a>
+                    <CLink className="nav-link page-scroll" to="/login">Login</CLink>
                 </li>
             </ul>
             <span className="nav-item social-icons">
@@ -520,7 +521,7 @@ export default () => {
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">
-                    <p className="p-small">Copyright © 2020 <a href="https://digimarket.com">Digimarket</a> - All rights reserved</p>
+                    <p className="p-small">Copyright © 2020 <CLink to="https://digimarket.com">Digimarket</CLink> - All rights reserved</p>
                 </div>
             </div>
         </div>
