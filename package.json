@@ -1,12 +1,11 @@
 {
-  "name": "@coreui/coreui-free-react-admin-template",
+  "name": "@digimarket/digimarket",
   "version": "3.0.0",
-  "description": "CoreUI React Open Source Bootstrap 4 Admin Template",
+  "description": "Digimarket",
   "author": {
-    "name": "CoreUI",
-    "url": "https://coreui.io",
-    "github": "https://github.com/coreui",
-    "twitter": "https://twitter.com/core_ui"
+    "name": "Digimarket",
+    "url": "https://digimarket.io",
+    "github": "https://github.com/digimarket"
   },
   "contributors": [
     {
@@ -14,8 +13,8 @@
       "url": "https://github.com/orgs/coreui/people"
     }
   ],
-  "homepage": ".",
-  "copyright": "Copyright 2017-2020 creativeLabs Łukasz Holeczek",
+  "homepage": "https://gglee89.github.io/digimarket",
+  "copyright": "Copyright 2017-2020",
   "license": "MIT",
   "private": true,
   "repository": {
@@ -51,7 +50,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
