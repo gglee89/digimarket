@@ -24,12 +24,12 @@ This project is a mere Application Prototyping attempt to deploy the same instan
 
 ## Development Milestones
 
-1. Setup Create React App (~5mins)
-2. Include Landing Page Template (~20mins)
-3. Setup React Routing (~10mins)
-4. Include Dashboard Template (~30mins)
-5. Setup Authentication with Higher-Order Components (HOC) (~15mins)
-6. Deploy (~60mins)
+- [x] Setup Create React App (~5mins) []
+- [x] Include Dashboard Template (~30mins)
+- [x] Setup React Routing (~10mins)
+- [] Include Landing Page Template (~20mins)
+- [] Setup Authentication with Higher-Order Components (HOC) (~15mins)
+- [] Deploy (~60mins)
 
 In total we expect the total delivery time, comprised in all of the aforementioned steps, to take approximately 1 hour and 20 minutes to prepare the base instance of the Web App that gets replicated. Additionally, for each cloud server, we expect to utilize about 1 hour to setup the configuration and deployment steps.
 
