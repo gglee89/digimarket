@@ -59,9 +59,9 @@ export default () => {
                 <li className="nav-item dropdown">
                     <CLink className="nav-link dropdown-toggle page-scroll" to="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">About</CLink>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <CLink className="dropdown-item" to="/terms-conditions"><span className="item-text">Terms Conditions</span></a>
+                        <CLink className="dropdown-item" to="/terms-conditions"><span className="item-text">Terms Conditions</span></CLink>
                         <div className="dropdown-items-divide-hr"></div>
-                        <CLink className="dropdown-item" to="/privacy-policy"><span className="item-text">Privacy Policy</span></a>
+                        <CLink className="dropdown-item" to="/privacy-policy"><span className="item-text">Privacy Policy</span></CLink>
                     </div>
                 </li>                
 
