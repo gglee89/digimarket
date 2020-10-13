@@ -6,21 +6,29 @@ This project is a mere Application Prototyping attempt to deploy the same instan
 
 **Reference of the templates:**
 
-- (Dashboard)
+- (Dashboard/Login/Register)
   - (Django) https://django-dashboard-shards.appseed.us/
   - (React) https://coreui.io/react/
-- (Login Page) Custom Built
-  - https://codesandbox.io/s/wizardly-elion-urnnn
 - (Landing Page)
   - https://inovatik.com/evolo-free-startup-landing-page-template.html
 
 ## Cloud Server Platforms
 
 - [Github Pages](https://pages.github.com/)
+  - Deployed with 'gh-pages' module.
 - [Heroku](https://heroku.com)
+  - Heroku CLI installed and deployed with buildpack mars/
+    create-react-app;
+  - https://github.com/mars/create-react-app-buildpack
 - [NextJS](https://nextjs.org/)
+  - Very straighforward. Just deployed with **Vercel CLI** by connecting my GithubRepo.
 - [Google Cloud Platform (GCP) - App Engine](https://cloud.google.com/appengine)
+  - **server:** southamerica-east1gcloud
+  - **config file:** app.yaml
+  - Reference: https://medium.com/javascript-in-plain-english/quickly-deploy-your-react-app-on-googles-app-engine-6bb97480cc9c
 - [Amazon Web Services (AWS) - EC2](https://aws.amazon.com/ec2/)
+  - **server:** South America (Sao Paulo) sa-east-1
+  - Reference: https://medium.com/@wolovim/deploying-create-react-app-to-s3-or-cloudfront-48dae4ce0af
 
 ## Development Milestones
 
