@@ -16,13 +16,13 @@ export default [
   {
     _tag: 'CSidebarNavItem',
     name: 'Colors',
-    to: '/theme/colors',
+    to: '/dashboard/theme/colors',
     icon: 'cil-drop',
   },
   {
     _tag: 'CSidebarNavItem',
     name: 'Typography',
-    to: '/theme/typography',
+    to: '/dashboard/theme/typography',
     icon: 'cil-pencil',
   },
   {
@@ -32,135 +32,135 @@ export default [
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Base',
-    route: '/base',
+    route: '/dashboard/base',
     icon: 'cil-puzzle',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'Breadcrumb',
-        to: '/base/breadcrumbs',
+        to: '/dashboard/base/breadcrumbs',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Cards',
-        to: '/base/cards',
+        to: '/dashboard/base/cards',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Carousel',
-        to: '/base/carousels',
+        to: '/dashboard/base/carousels',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Collapse',
-        to: '/base/collapses',
+        to: '/dashboard/base/collapses',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Forms',
-        to: '/base/forms',
+        to: '/dashboard/base/forms',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Jumbotron',
-        to: '/base/jumbotrons',
+        to: '/dashboard/base/jumbotrons',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'List group',
-        to: '/base/list-groups',
+        to: '/dashboard/base/list-groups',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Navs',
-        to: '/base/navs',
+        to: '/dashboard/base/navs',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Navbars',
-        to: '/base/navbars',
+        to: '/dashboard/base/navbars',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Pagination',
-        to: '/base/paginations',
+        to: '/dashboard/base/paginations',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Popovers',
-        to: '/base/popovers',
+        to: '/dashboard/base/popovers',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Progress',
-        to: '/base/progress-bar',
+        to: '/dashboard/base/progress-bar',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Switches',
-        to: '/base/switches',
+        to: '/dashboard/base/switches',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Tables',
-        to: '/base/tables',
+        to: '/dashboard/base/tables',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Tabs',
-        to: '/base/tabs',
+        to: '/dashboard/base/tabs',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Tooltips',
-        to: '/base/tooltips',
+        to: '/dashboard/base/tooltips',
       },
     ],
   },
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Buttons',
-    route: '/buttons',
+    route: '/dashboard/buttons',
     icon: 'cil-cursor',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'Buttons',
-        to: '/buttons/buttons',
+        to: '/dashboard/buttons/buttons',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Brand buttons',
-        to: '/buttons/brand-buttons',
+        to: '/dashboard/buttons/brand-buttons',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Buttons groups',
-        to: '/buttons/button-groups',
+        to: '/dashboard/buttons/button-groups',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Dropdowns',
-        to: '/buttons/button-dropdowns',
+        to: '/dashboard/buttons/button-dropdowns',
       }
     ],
   },
   {
     _tag: 'CSidebarNavItem',
     name: 'Charts',
-    to: '/charts',
+    to: '/dashboard/charts',
     icon: 'cil-chart-pie'
   },
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Icons',
-    route: '/icons',
+    route: '/dashboard/icons',
     icon: 'cil-star',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'CoreUI Free',
-        to: '/icons/coreui-icons',
+        to: '/dashboard/icons/coreui-icons',
         badge: {
           color: 'success',
           text: 'NEW',
@@ -169,47 +169,47 @@ export default [
       {
         _tag: 'CSidebarNavItem',
         name: 'CoreUI Flags',
-        to: '/icons/flags',
+        to: '/dashboard/icons/flags',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'CoreUI Brands',
-        to: '/icons/brands',
+        to: '/dashboard/icons/brands',
       },
     ],
   },
   {
     _tag: 'CSidebarNavDropdown',
     name: 'Notifications',
-    route: '/notifications',
+    route: '/dashboard/notifications',
     icon: 'cil-bell',
     _children: [
       {
         _tag: 'CSidebarNavItem',
         name: 'Alerts',
-        to: '/notifications/alerts',
+        to: '/dashboard/notifications/alerts',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Badges',
-        to: '/notifications/badges',
+        to: '/dashboard/notifications/badges',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Modal',
-        to: '/notifications/modals',
+        to: '/dashboard/notifications/modals',
       },
       {
         _tag: 'CSidebarNavItem',
         name: 'Toaster',
-        to: '/notifications/toaster'
+        to: '/dashboard/notifications/toaster'
       }
     ]
   },
   {
     _tag: 'CSidebarNavItem',
     name: 'Widgets',
-    to: '/widgets',
+    to: '/dashboard/widgets',
     icon: 'cil-calculator',
     badge: {
       color: 'info',
