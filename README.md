@@ -6,9 +6,13 @@ This project is a mere Application Prototyping attempt to deploy the same instan
 
 **Reference of the templates:**
 
-- (Dashboard) https://django-dashboard-shards.appseed.us/
+- (Dashboard)
+  - (Django) https://django-dashboard-shards.appseed.us/
+  - (React) https://coreui.io/react/
 - (Login Page) Custom Built
-- (Landing Page) https://inovatik.com/evolo-free-startup-landing-page-template.html
+  - https://codesandbox.io/s/wizardly-elion-urnnn
+- (Landing Page)
+  - https://inovatik.com/evolo-free-startup-landing-page-template.html
 
 ## Cloud Server Platforms
 
