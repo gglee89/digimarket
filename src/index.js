@@ -11,9 +11,6 @@ import { icons } from './assets/icons'
 import { Provider } from 'react-redux'
 import store from './store'
 
-// Import Swiper styles
-import 'swiper/swiper.scss';
-
 React.icons = icons
 
 ReactDOM.render(
