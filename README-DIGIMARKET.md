@@ -32,7 +32,7 @@ This project is a mere Application Prototyping attempt to deploy the same instan
 
 ## Development Milestones
 
-- [x] Setup Create React App (~5mins) []
+- [x] Setup Create React App (~5mins)
 - [x] Include Dashboard Template (~30mins)
 - [x] Setup React Routing (~10mins)
 - [x] Include Landing Page Template (~20mins)
